@@ -62,7 +62,7 @@ var find = document.getElementById('fa');
 find.addEventListener('click', (e) => {
     e.preventDefault();
     let code = document.getElementById('code');
-    code = code.value;
+    code = code.value.toLowerCase(); 
     let result ;
     let j = 1 ;
     let sec1A = document.getElementById('sec1-A');
