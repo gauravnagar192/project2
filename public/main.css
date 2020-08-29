@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Russo+One&display=swap');
+
+
+body {
+    margin: 0px;
+}
+#assign-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    background: #2c3e50;
+}
+#logo {
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+    font-size: 1vw;
+    font-family: 'Russo One', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#order {
+    padding: 10px;
+    font-size: 1vw;
+    font-family: 'Russo One', sans-serif;
+    color: #FFFFFF;
+}
+#order > i {
+    margin: 0px 10px;
+}
+#ah {
+    text-align: center;
+    font-size: 4vw;
+    margin: 4vw 0vw;
+    font-family: 'Alata', sans-serif;
+    color: #f39c12;
+}
+#l1 {
+    text-align: center;
+    font-size: 2vw;
+    margin: 4vw 0vw;
+    font-family: 'Alata', sans-serif;
+}
+#as-form {
+    padding: 2vw;
+    margin: 2vw;
+}
+#f-s1 , #f-s2 {
+    display: flex;
+    justify-content: center;
+}
+.f-line {
+    display: inline-block;
+}
+.l {
+    margin: 1vw 0vw;
+    font-family: 'Alata', sans-serif;
+    font-size: 1.5vw;
+    color: #2c3e50;
+}
+.fi {
+    margin: 1vw;
+    border: 2px solid #2c3e50;
+    width: 15vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    font-family: 'Alata', sans-serif;
+}
+.fi:focus{
+    outline: none;
+}
+#fa {
+    padding: 1vw 2vw;
+    background: #f39c12;
+    font-size: 1.5vw;
+    font-family: 'Alata', sans-serif;
+    display: block;
+    border: none;
+    margin: 2vw 0vw;
+    color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000000;
+}
+#sec {
+    margin: 2vw;
+    padding: 2vw;
+}
+#sec1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#sec1-A {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-right: none;
+    width: 100%;
+}
+#sec1-B {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding: 2vw;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    margin: 0px;
+}
+#sec2-A {
+    width: 80%;
+    position: relative;
+    padding: 2vw 1%;
+    font-size: 1.5vw;
+    font-family: 'Alata', sans-serif;
+    background: #f39c12;
+    color: #FFFFFF;
+    margin: 0vw;
+    margin-top: 4vh;
+    display: inline-block;
+}
+#sec2-B {
+    width: 20%;
+    position: relative;
+    padding: 2vw 0vw;
+    font-size: 1.5vw;
+    font-family: 'Alata', sans-serif;
+    background: #f39c12;
+    color: #FFFFFF;
+    margin: 0vw;
+    margin-top: 4vh;
+    display: inline-block;
+}
+.col1 {
+    width: 80%;
+    position: relative;
+    padding: 2vw 1%;
+    font-size: 1.5vw;
+    font-family: 'Alata', sans-serif;
+    background: #FFFFFF;
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    margin: 0vw;
+    display: inline-block;
+}
+.col2 {
+    width: 20%;
+    position: relative;
+    padding: 2vw 0vw;
+    font-size: 1.5vw;
+    font-family: 'Alata', sans-serif;
+    background: #FFFFFF;
+    color: #f39c12;
+    border-bottom: 2px solid #2c3e50;
+    margin: 0vw;
+    display: inline-block;    
+}
+.modal-body > h3 {
+    font-size: 1.2vw;
+    font-family: 'Alata', sans-serif;
+    margin: 2vw 0vw;
+    text-align: center;    
+}
+#n-grp , #v-grp {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#n-sub-container {
+    display: flex;
+    justify-content: center;
+}
+#n-submit {
+    padding: 0vw 1vw;
+    margin: 2vw 0vw;
+    background: #FFFFFF;
+    color: #2c3e50;
+    border: 2px solid #2c3e50;
+    font-size: 20px;
+}
+.modal-body > p {
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Alata', sans-serif;
+    margin: 2vw 0vw;    
+}
+.modal-body > form > a {
+    text-align: end;
+    color: #2c3e50;
+    display: flex;
+    justify-content: flex-end;
+    margin: 2vw 0vw;    
+}
+#v-sub-container {
+    display: flex;
+    justify-content: flex-end;
+}
+#v-submit , #c-submit {
+    margin-left: 2vw;
+    border: 2px solid #2c3e50;
+    background: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: 'Alata', sans-serif;
+}
+#v-label {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#v {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border: 1px solid #2c3e50;
+}
+.grey {
+    background: #d3d3d3;
+}

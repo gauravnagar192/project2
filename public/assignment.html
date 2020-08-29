@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://kit.fontawesome.com/aaa4f8f051.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <header id="assign-header">
+        <a href="" id="logo">Logo</a>
+        <div id="order">
+            <i class="fas fa-user"></i>
+            My Orders
+            <i class="fas fa-sort-down"></i>
+        </div>
+    </header>
+    <h3 id="ah">Assignment Help</h3>
+    <p id="l1">Get Assignment Help From World's No. 1 Assignment Help Company</p>
+    <form  id="as-form">
+        <section id="f-s1">
+                <label class="f-line l" for="">Enter Your Email Id</label>
+                <input class="f-line fi" type="email" name="" id="">
+                <label class="f-line l" for="">University Name</label>
+                <input class="f-line fi" type="text" name="" id="">
+                <label class="f-line l" for="">Course Code</label>
+                <input class="f-line fi" type="text" name="" id="code">
+        </section>
+        <section id="f-s2">
+                <input type="submit" value="Find Assistance" id="fa">
+        </section>        
+    </form>
+    <section id="sec">
+        <div id="sec1">
+            <div id="sec1-A" data-toggle="modal" data-target="#exampleModal">Course</div>
+            <p id="sec1-B">Here We show the course info</p>
+        </div>
+        <div id="sec2">
+            <div id="sec2-A">Course Name</div><div id="sec2-B">Attachment</div>
+        </div>
+    </section>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <div class="modal-dialog" role="document">
+         <div class="modal-content">
+           <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+             </button>
+           </div>
+           <div class="modal-body">
+             <h3>Verify your mobile number to download your free assignment</h3>
+             <form  id="n-form">
+                 <div id="n-grp">
+                    <label for="" id="num-label">Enter your number</label>
+                    <select name="" id="country-code">
+                        <option value="93">Afghanistan(93)</option>
+                        <option value="355">Albania(355)</option>
+                        <option value="91">India(91)</option>
+                        <option value="94">Sri Lanka(94)</option>
+                        <option value="1">Us(1)</option>
+                    </select>
+                    <input type="text" name="" id="num">
+                 </div>
+                 <div id="n-sub-container">
+                  <input type="submit" value="Submit" data-dismiss="modal" data-toggle="modal" data-target="#exampleModal1" id="n-submit">
+                 </div>
+             </form>
+           </div>
+         </div>
+       </div>
+    </div>
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h3>Verify your mobile number to download your free assignment</h3>
+              <p>A verification code has been sent to +91 8955099004. You can resend the verification code to some mobile or you can <a href="">edit the mobile number</a></p>
+              <form  id="v-form">
+                  <div id="v-grp">
+                     <label for="" id="v-label">Enter Verification Code</label>
+                     <input type="text" name="" id="v">
+                  </div>
+                  <a href="">Resend Code</a>
+                  <div id="v-sub-container">
+                   <input type="submit" value="Verify My Number" id="v-submit">
+                   <input type="submit" value="Cancel" id="c-submit">
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+     </div>     
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
