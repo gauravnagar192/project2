@@ -86,7 +86,7 @@ body {
 }
 #sec1 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 25vw auto auto;
 }
 #sec1-A {
     grid-column-start: 1;
@@ -107,6 +107,7 @@ body {
     background: #FFFFFF;
     border: 2px solid #000000;
     margin: 0px;
+    width: 100%;
 }
 #sec2-A {
     width: 80%;
